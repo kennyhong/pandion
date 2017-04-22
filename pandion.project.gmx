@@ -5,9 +5,23 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_pandion</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_test01</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_move_easy</object>
+    <object>objects\obj_move_friction</object>
+    <object>objects\obj_move_friction_accel</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_movement_accel</room>
+    <room>rooms\rm_movement_test_easy</room>
+    <room>rooms\rm_movement_test_friction</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
