@@ -14,7 +14,8 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_move_easy</object>
-    <object>objects\obj_move_frictio</object>
+    <object>objects\obj_move_friction</object>
+    <object>objects\obj_move_friction_accel</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_movement_test_easy</room>
