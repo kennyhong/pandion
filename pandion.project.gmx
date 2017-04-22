@@ -5,9 +5,38 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\test_enemy</sprite>
+    <sprite>sprites\fire_lazar</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\check_wave_completed.gml</script>
+    <script>scripts\script_L1W1.gml</script>
+    <script>scripts\script_L1W2.gml</script>
+    <script>scripts\script_L1W3.gml</script>
+  </scripts>
+  <objects name="objects">
+    <objects name="enemies">
+      <object>objects\demon_0</object>
+      <object>objects\lazar_obj</object>
+      <object>objects\demon_controller_parent</object>
+    </objects>
+    <objects name="controllers">
+      <object>objects\wave_controller_parent</object>
+      <object>objects\wave_controller_one</object>
+    </objects>
+    <objects name="debug">
+      <object>objects\debug_HUD</object>
+    </objects>
+  </objects>
+  <timelines name="timelines">
+    <timeline>timelines\demon_wave_one</timeline>
+  </timelines>
+  <rooms name="rooms">
+    <room>rooms\hellfire_room</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
