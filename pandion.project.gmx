@@ -38,14 +38,13 @@
     <objects name="debug">
       <object>objects\debug_HUD</object>
     </objects>
-    <object>objects\obj_move_easy</object>
-    <object>objects\obj_move_friction</object>
-    <object>objects\obj_move_friction_accel</object>
-    <object>objects\object3</object>
-    <object>objects\obj_boundary_controller</object>
-    <object>objects\obj_initializer</object>
-    <object>objects\player_bullet</object>
-    <object>objects\obj_crosshair</object>
+    <objects name="player">
+      <object>objects\obj_move_friction_accel</object>
+      <object>objects\obj_boundary_controller</object>
+      <object>objects\obj_initializer</object>
+      <object>objects\obj_crosshair</object>
+      <object>objects\player_bullet</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\demon_wave_one</timeline>
@@ -53,9 +52,9 @@
   <rooms name="rooms">
     <room>rooms\initializer</room>
     <room>rooms\rm_movement_accel</room>
+    <room>rooms\hellfire_room</room>
     <room>rooms\rm_movement_test_easy</room>
     <room>rooms\rm_movement_test_friction</room>
-    <room>rooms\hellfire_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
