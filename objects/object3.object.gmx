@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>maxSpeed = 5
+            <string>///Movement
+maxSpeed = 5
 accel = 2.5
 moving = false
 deccel = 2.5
