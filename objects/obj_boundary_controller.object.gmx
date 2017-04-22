@@ -19,17 +19,17 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>other</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
             <string>///drawBoundary
-top = draw_sprite(spr_boundary_v,0,room_height/2 - global.BOUNDARY_SIZE,room_width/2)
-bottom = draw_sprite(spr_boundary_v,0,room_height/2 + global.BOUNDARY_SIZE,room_width/2)
-left = draw_sprite(spr_boundary_v,0,room_width/2 - global.BOUNDARY_SIZE,room_height)
-right = draw_sprite(spr_boundary_v,0,room_width/2 + global.BOUNDARY_SIZE,room_height)
+draw_sprite(spr_boundary_v,0,room_height/2 - global.BOUNDARY_SIZE,room_width/2)
+draw_sprite(spr_boundary_v,0,room_height/2 + global.BOUNDARY_SIZE,room_width/2)
+draw_sprite(spr_boundary_v,0,room_width/2 - global.BOUNDARY_SIZE,room_height/2)
+draw_sprite(spr_boundary_v,0,room_width/2 + global.BOUNDARY_SIZE,room_height/2)
 </string>
           </argument>
         </arguments>
