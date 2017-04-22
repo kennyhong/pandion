@@ -6,10 +6,18 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\spr_pandion</sprite>
+    <sprite>sprites\spr_boundary_v</sprite>
+    <sprite>sprites\spr_boundary_corner</sprite>
+    <sprite>sprites\spr_boundary_h</sprite>
+    <sprite>sprites\spr_player_bullet</sprite>
+    <sprite>sprites\spr_crosshair</sprite>
     <sprite>sprites\test_enemy</sprite>
     <sprite>sprites\fire_lazar</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_test01</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\check_wave_completed.gml</script>
@@ -30,11 +38,23 @@
     <objects name="debug">
       <object>objects\debug_HUD</object>
     </objects>
+    <object>objects\obj_move_easy</object>
+    <object>objects\obj_move_friction</object>
+    <object>objects\obj_move_friction_accel</object>
+    <object>objects\object3</object>
+    <object>objects\obj_boundary_controller</object>
+    <object>objects\obj_initializer</object>
+    <object>objects\player_bullet</object>
+    <object>objects\obj_crosshair</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\demon_wave_one</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\initializer</room>
+    <room>rooms\rm_movement_accel</room>
+    <room>rooms\rm_movement_test_easy</room>
+    <room>rooms\rm_movement_test_friction</room>
     <room>rooms\hellfire_room</room>
   </rooms>
   <help>
