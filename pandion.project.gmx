@@ -10,6 +10,8 @@
     <sprite>sprites\spr_boundary_v</sprite>
     <sprite>sprites\spr_boundary_corner</sprite>
     <sprite>sprites\spr_boundary_h</sprite>
+    <sprite>sprites\spr_player_bullet</sprite>
+    <sprite>sprites\spr_crosshair</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test01</background>
@@ -22,6 +24,8 @@
     <object>objects\object3</object>
     <object>objects\obj_boundary_controller</object>
     <object>objects\obj_initializer</object>
+    <object>objects\player_bullet</object>
+    <object>objects\obj_crosshair</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\initializer</room>
