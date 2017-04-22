@@ -18,6 +18,7 @@
     <object>objects\obj_move_friction_accel</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_movement_accel</room>
     <room>rooms\rm_movement_test_easy</room>
     <room>rooms\rm_movement_test_friction</room>
   </rooms>
