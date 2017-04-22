@@ -21,9 +21,11 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\check_wave_completed.gml</script>
-    <script>scripts\script_L1W1.gml</script>
-    <script>scripts\script_L1W2.gml</script>
-    <script>scripts\script_L1W3.gml</script>
+    <scripts name="wave_scripts">
+      <script>scripts\script_L1W3.gml</script>
+      <script>scripts\script_L1W2.gml</script>
+      <script>scripts\script_L1W1.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="enemies">
@@ -34,6 +36,7 @@
     <objects name="controllers">
       <object>objects\wave_controller_parent</object>
       <object>objects\wave_controller_one</object>
+      <object>objects\wave_controller_two</object>
     </objects>
     <objects name="debug">
       <object>objects\debug_HUD</object>
@@ -47,14 +50,17 @@
     </objects>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\demon_wave_one</timeline>
+    <timeline>timelines\demon_L1W1</timeline>
+    <timeline>timelines\demon_L1W2</timeline>
+    <timeline>timelines\demon_L1W3</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\hellfire_room</room>
     <room>rooms\initializer</room>
     <room>rooms\rm_movement_accel</room>
-    <room>rooms\hellfire_room</room>
     <room>rooms\rm_movement_test_easy</room>
     <room>rooms\rm_movement_test_friction</room>
+    <room>rooms\level_two</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
