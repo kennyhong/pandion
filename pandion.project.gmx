@@ -17,6 +17,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_move_easy</object>
+    <object>objects\obj_move_loop</object>
     <object>objects\obj_move_friction</object>
     <object>objects\obj_move_friction_accel</object>
     <object>objects\object3</object>
@@ -28,6 +29,7 @@
     <room>rooms\rm_movement_accel</room>
     <room>rooms\rm_movement_test_easy</room>
     <room>rooms\rm_movement_test_friction</room>
+    <room>rooms\rm_movement_loop</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
