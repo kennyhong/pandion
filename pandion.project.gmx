@@ -48,6 +48,7 @@
       <object>objects\obj_initializer</object>
       <object>objects\obj_crosshair</object>
       <object>objects\player_bullet</object>
+	  <object>objects\obj_move_loop</object>
     </objects>
   </objects>
   <timelines name="timelines">
@@ -61,6 +62,7 @@
     <room>rooms\rm_movement_accel</room>
     <room>rooms\rm_movement_test_easy</room>
     <room>rooms\rm_movement_test_friction</room>
+    <room>rooms\rm_movement_loop</room>
     <room>rooms\level_two</room>
   </rooms>
   <help>

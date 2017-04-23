@@ -29,6 +29,13 @@
 noHoriz = true;
 noVert = true;
 
+if (x &gt;= BOUNDARY_SIZE || x &lt;= -BOUNDARY_SIZE){
+    x = -x
+}
+if (y &gt;= BOUNDARY_SIZE || y &lt;= -BOUNDARY_SIZE){
+    y = -y
+}
+
 if (keyboard_check(vk_left)){
     hspeed = -maxspeed
     noHoriz = false;
