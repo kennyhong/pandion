@@ -156,22 +156,6 @@ if(speed != 0){
         </arguments>
       </action>
     </event>
-    <event eventtype="5" enumb="17">
-      <action>
-        <libid>1</libid>
-        <id>221</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_previous_room</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-    </event>
     <event eventtype="6" enumb="50">
       <action>
         <libid>1</libid>
