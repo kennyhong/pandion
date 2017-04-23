@@ -17,6 +17,7 @@
     <sprites name="enemy">
       <sprite>sprites\spr_enemy_amdusias</sprite>
       <sprite>sprites\spr_enemy_bifrons</sprite>
+      <sprite>sprites\spr_enemy_belial</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
