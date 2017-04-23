@@ -14,6 +14,11 @@
     <sprite>sprites\spr_crosshair</sprite>
     <sprite>sprites\test_enemy</sprite>
     <sprite>sprites\fire_lazar</sprite>
+    <sprites name="enemy">
+      <sprite>sprites\spr_enemy_amdusias</sprite>
+      <sprite>sprites\spr_enemy_bifrons</sprite>
+      <sprite>sprites\spr_enemy_belial</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test01</background>
@@ -47,7 +52,7 @@
       <object>objects\obj_initializer</object>
       <object>objects\obj_crosshair</object>
       <object>objects\player_bullet</object>
-	  <object>objects\obj_move_loop</object>
+      <object>objects\obj_move_loop</object>
     </objects>
   </objects>
   <timelines name="timelines">
