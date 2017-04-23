@@ -42,7 +42,9 @@
       <object>objects\obj_blood_rain</object>
       <object>objects\obj_destroyable_enemy</object>
       <object>objects\object_dummy_enemy</object>
-      <object>objects\object17</object>
+      <object>objects\obj_enemy_8way</object>
+      <object>objects\object_enemy_spreadatplayer</object>
+      <object>objects\obj_enemy_bullet</object>
     </objects>
     <objects name="controllers">
       <object>objects\wave_controller_parent</object>
@@ -53,7 +55,7 @@
       <object>objects\debug_HUD</object>
     </objects>
     <objects name="player">
-      <object>objects\obj_move_friction_accel</object>
+      <object>objects\obj_player</object>
       <object>objects\obj_boundary_controller</object>
       <object>objects\obj_initializer</object>
       <object>objects\obj_crosshair</object>
@@ -67,7 +69,7 @@
     <timeline>timelines\demon_L1W3</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\Rain</room>
+    <room>rooms\LucsTestingRoom</room>
     <room>rooms\rm_movement_accel</room>
     <room>rooms\hellfire_room</room>
     <room>rooms\initializer</room>
