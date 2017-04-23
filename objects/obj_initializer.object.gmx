@@ -47,7 +47,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.BOUNDARY_SIZE = 200
+            <string>///initialize
+global.BOUNDARY_SIZE = 200
+global.BOUNDARY_MAX = 250
 </string>
           </argument>
         </arguments>
