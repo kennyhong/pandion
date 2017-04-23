@@ -14,6 +14,7 @@
     <sprite>sprites\spr_crosshair</sprite>
     <sprite>sprites\test_enemy</sprite>
     <sprite>sprites\fire_lazar</sprite>
+    <sprite>sprites\spr_enemy_amdusias</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test01</background>
