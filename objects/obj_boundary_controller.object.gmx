@@ -74,10 +74,10 @@ global.BOUNDARY_SIZE += 1
           <argument>
             <kind>1</kind>
             <string>///drawBoundary
-draw_sprite(spr_boundary_h,0,room_width/2,room_height/2 - global.BOUNDARY_SIZE,global.BOUNDARY_SIZE*2,17)
-draw_sprite(spr_boundary_h,0,room_width/2,room_height/2 + global.BOUNDARY_SIZE,global.BOUNDARY_SIZE*2,17)
-draw_sprite(spr_boundary_v,0,room_width/2 - global.BOUNDARY_SIZE,room_height/2,17,global.BOUNDARY_SIZE*2)
-draw_sprite(spr_boundary_v,0,room_width/2 + global.BOUNDARY_SIZE,room_height/2,17,global.BOUNDARY_SIZE*2)
+draw_sprite(spr_boundary_h,0,room_width/2,room_height/2 - global.BOUNDARY_SIZE)//,global.BOUNDARY_SIZE*2,17)
+draw_sprite(spr_boundary_h,0,room_width/2,room_height/2 + global.BOUNDARY_SIZE)//,global.BOUNDARY_SIZE*2,17)
+draw_sprite(spr_boundary_v,0,room_width/2 - global.BOUNDARY_SIZE,room_height/2)//,17,global.BOUNDARY_SIZE*2)
+draw_sprite(spr_boundary_v,0,room_width/2 + global.BOUNDARY_SIZE,room_height/2)//,17),global.BOUNDARY_SIZE*2)
 </string>
           </argument>
         </arguments>

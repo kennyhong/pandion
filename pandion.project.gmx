@@ -47,7 +47,7 @@
       <object>objects\obj_initializer</object>
       <object>objects\obj_crosshair</object>
       <object>objects\player_bullet</object>
-	  <object>objects\obj_move_loop</object>
+      <object>objects\obj_move_loop</object>
     </objects>
   </objects>
   <timelines name="timelines">
