@@ -40,6 +40,9 @@
       <object>objects\demon_controller_parent</object>
       <object>objects\obj_cloud</object>
       <object>objects\obj_blood_rain</object>
+      <object>objects\obj_destroyable_enemy</object>
+      <object>objects\object_dummy_enemy</object>
+      <object>objects\object17</object>
     </objects>
     <objects name="controllers">
       <object>objects\wave_controller_parent</object>
@@ -64,6 +67,7 @@
     <timeline>timelines\demon_L1W3</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\Rain</room>
     <room>rooms\rm_movement_accel</room>
     <room>rooms\hellfire_room</room>
     <room>rooms\initializer</room>

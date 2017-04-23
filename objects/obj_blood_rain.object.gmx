@@ -29,7 +29,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>0.1</string>
           </argument>
         </arguments>
       </action>
@@ -52,8 +52,8 @@
           <argument>
             <kind>1</kind>
             <string>///Acceleration
-maxSpeed = 15
-jerk = 0.025
+maxSpeed = 22
+jerk = 0.02
 if(vspeed &lt; maxSpeed){
     vspeed += accel
     accel += jerk
