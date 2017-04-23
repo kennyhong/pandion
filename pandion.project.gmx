@@ -14,6 +14,7 @@
     <sprite>sprites\spr_crosshair</sprite>
     <sprite>sprites\test_enemy</sprite>
     <sprite>sprites\fire_lazar</sprite>
+    <sprite>sprites\spr_red_square</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test01</background>
@@ -32,6 +33,8 @@
       <object>objects\demon_0</object>
       <object>objects\lazar_obj</object>
       <object>objects\demon_controller_parent</object>
+      <object>objects\obj_cloud</object>
+      <object>objects\obj_blood_rain</object>
     </objects>
     <objects name="controllers">
       <object>objects\wave_controller_parent</object>
@@ -55,9 +58,9 @@
     <timeline>timelines\demon_L1W3</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\rm_movement_accel</room>
     <room>rooms\hellfire_room</room>
     <room>rooms\initializer</room>
-    <room>rooms\rm_movement_accel</room>
     <room>rooms\rm_movement_test_easy</room>
     <room>rooms\rm_movement_test_friction</room>
     <room>rooms\level_two</room>
