@@ -8,8 +8,10 @@
   <sprites name="sprites">
     <sprite>sprites\spr_pandion</sprite>
     <sprite>sprites\spr_boundary_v</sprite>
+    <sprite>sprites\spr_boundary_lv</sprite>
     <sprite>sprites\spr_boundary_corner</sprite>
     <sprite>sprites\spr_boundary_h</sprite>
+    <sprite>sprites\spr_boundary_lh</sprite>
     <sprite>sprites\spr_player_bullet</sprite>
     <sprite>sprites\spr_crosshair</sprite>
     <sprite>sprites\test_enemy</sprite>
@@ -39,6 +41,8 @@
       <object>objects\demon_controller_parent</object>
     </objects>
     <objects name="controllers">
+      <object>objects\obj_boundary_controller</object>
+      <object>objects\obj_initializer</object>
       <object>objects\wave_controller_parent</object>
       <object>objects\wave_controller_one</object>
       <object>objects\wave_controller_two</object>
@@ -48,8 +52,6 @@
     </objects>
     <objects name="player">
       <object>objects\obj_move_friction_accel</object>
-      <object>objects\obj_boundary_controller</object>
-      <object>objects\obj_initializer</object>
       <object>objects\obj_crosshair</object>
       <object>objects\player_bullet</object>
       <object>objects\obj_move_loop</object>
@@ -61,8 +63,8 @@
     <timeline>timelines\demon_L1W3</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\hellfire_room</room>
     <room>rooms\initializer</room>
+    <room>rooms\hellfire_room</room>
     <room>rooms\rm_movement_accel</room>
     <room>rooms\rm_movement_test_easy</room>
     <room>rooms\rm_movement_test_friction</room>
