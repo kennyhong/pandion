@@ -44,9 +44,9 @@
           <argument>
             <kind>1</kind>
             <string>///Spawn enemy
-enemy = instance_create(0, 0, obj_enemy_spread_shot_at_player_2hp);
+enemy = instance_create(0, 0, obj_enemy_32way_2hp);
 enemy.x = 0
-enemy.y = 0
+enemy.y = 20
 enemy.speed = 7
 enemy.direction = 0
 enemy.destroy = false;
@@ -83,7 +83,7 @@ enemy.returnLocations[0,3] = 0
             <string>///Spawn enemy
 enemy = instance_create(0, 0, obj_enemy_spread_shot_at_player_2hp);
 enemy.x = 0
-enemy.y = 0
+enemy.y = 20
 enemy.speed = 7
 enemy.direction = 0
 enemy.destroy = false;

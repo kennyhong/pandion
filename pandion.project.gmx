@@ -21,11 +21,16 @@
       <sprite>sprites\spr_enemy_amdusias</sprite>
       <sprite>sprites\spr_enemy_bifrons</sprite>
       <sprite>sprites\spr_enemy_belial</sprite>
+      <sprite>sprites\lesser_demon_1</sprite>
+      <sprite>sprites\lesser_demon_2</sprite>
+      <sprite>sprites\lesser_demon_3</sprite>
     </sprites>
     <sprite>sprites\spr_cloud</sprite>
     <sprite>sprites\spr_fullHeart</sprite>
     <sprite>sprites\spr_halfHeart</sprite>
     <sprite>sprites\spr_emptyHeart</sprite>
+    <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\bullet2</sprite>
     <sprite>sprites\spr_anykey</sprite>
   </sprites>
   <backgrounds name="background">
@@ -34,9 +39,6 @@
     <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\check_wave_completed.gml</script>
-  </scripts>
   <objects name="objects">
     <objects name="enemies">
       <object>objects\lazar_obj</object>
@@ -51,6 +53,8 @@
       <object>objects\obj_enemy_bullet</object>
       <object>objects\obj_leaving_screen_behavior</object>
       <object>objects\obj_belial</object>
+      <object>objects\obj_amdusias</object>
+      <object>objects\obj_bifrons</object>
     </objects>
     <objects name="controllers">
       <object>objects\obj_boundary_controller</object>
@@ -63,9 +67,6 @@
       <object>objects\obj_startup_text</object>
       <object>objects\object25</object>
     </objects>
-    <objects name="debug">
-      <object>objects\debug_HUD</object>
-    </objects>
     <objects name="player">
       <object>objects\obj_player</object>
       <object>objects\obj_crosshair</object>
@@ -76,17 +77,13 @@
   <timelines name="timelines">
     <timeline>timelines\test_wave</timeline>
     <timeline>timelines\timeline4</timeline>
+    <timeline>timelines\amdusiasTimeline</timeline>
     <timelines name="pre_boss_waves">
       <timeline>timelines\demon_wave_1</timeline>
       <timeline>timelines\demon_wave_2</timeline>
       <timeline>timelines\demon_wave_3</timeline>
       <timeline>timelines\demon_wave_4</timeline>
       <timeline>timelines\demon_wave_5</timeline>
-      <timeline>timelines\demon_wave_6</timeline>
-      <timeline>timelines\demon_wave_7</timeline>
-      <timeline>timelines\demon_wave_8</timeline>
-      <timeline>timelines\demon_wave_9</timeline>
-      <timeline>timelines\demon_wave_10</timeline>
     </timelines>
   </timelines>
   <rooms name="rooms">

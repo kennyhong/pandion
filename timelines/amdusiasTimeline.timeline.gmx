@@ -5,9 +5,9 @@
     <event>
       <action>
         <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>2</exetype>
@@ -19,14 +19,24 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.ENEMY_COUNT</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>5</string>
+            <string>shotSpeed = 8
+spread = 20
+x = 60
+y = 60
+for(i = 0; i &lt; 3; i++){
+    bullet = instance_create(x+sprite_width/2, y+sprite_height/2, obj_enemy_bullet);
+    bullet.speed = shotSpeed
+    bullet.direction = point_direction(x+sprite_width/2,y+sprite_height/2,obj_player.x + obj_player.sprite_width/2,obj_player.y + obj_player.sprite_height/2) + spread - (i*spread)
+}
+</string>
           </argument>
         </arguments>
       </action>
+    </event>
+  </entry>
+  <entry>
+    <step>15</step>
+    <event>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -43,18 +53,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Spawn enemy
-enemy = instance_create(0, 0, obj_spread_stream_at_player_2hp);
-enemy.x = 0
-enemy.y = 20
-enemy.speed = 7
-enemy.direction = 0
-enemy.destroy = false;
-enemy.reappearanceLocations = 1;
-enemy.returnLocations[0,0] = 0
-enemy.returnLocations[0,1] = 0
-enemy.returnLocations[0,2] = 7
-enemy.returnLocations[0,3] = 0
+            <string>shotSpeed = 8
+spread = 20
+x = room_width - 60
+y = 60
+for(i = 0; i &lt; 3; i++){
+    bullet = instance_create(x+sprite_width/2, y+sprite_height/2, obj_enemy_bullet);
+    bullet.speed = shotSpeed
+    bullet.direction = point_direction(x+sprite_width/2,y+sprite_height/2,obj_player.x + obj_player.sprite_width/2,obj_player.y + obj_player.sprite_height/2) + spread - (i*spread)
+}
 </string>
           </argument>
         </arguments>
@@ -80,18 +87,49 @@ enemy.returnLocations[0,3] = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Spawn enemy
-enemy = instance_create(0, 0, obj_enemy_32way_2hp);
-enemy.x = 0
-enemy.y = 20
-enemy.speed = 7
-enemy.direction = 0
-enemy.destroy = false;
-enemy.reappearanceLocations = 1;
-enemy.returnLocations[0,0] = 0
-enemy.returnLocations[0,1] = 0
-enemy.returnLocations[0,2] = 7
-enemy.returnLocations[0,3] = 0
+            <string>shotSpeed = 8
+spread = 20
+x = room_width - 60
+y = room_height - 60
+for(i = 0; i &lt; 3; i++){
+    bullet = instance_create(x+sprite_width/2, y+sprite_height/2, obj_enemy_bullet);
+    bullet.speed = shotSpeed
+    bullet.direction = point_direction(x+sprite_width/2,y+sprite_height/2,obj_player.x + obj_player.sprite_width/2,obj_player.y + obj_player.sprite_height/2) + spread - (i*spread)
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>45</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>shotSpeed = 8
+spread = 20
+x = 60
+y = room_height - 60
+for(i = 0; i &lt; 3; i++){
+    bullet = instance_create(x+sprite_width/2, y+sprite_height/2, obj_enemy_bullet);
+    bullet.speed = shotSpeed
+    bullet.direction = point_direction(x+sprite_width/2,y+sprite_height/2,obj_player.x + obj_player.sprite_width/2,obj_player.y + obj_player.sprite_height/2) + spread - (i*spread)
+}
 </string>
           </argument>
         </arguments>
@@ -117,55 +155,8 @@ enemy.returnLocations[0,3] = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Spawn enemy
-enemy = instance_create(0, 0, obj_enemy_8way_2hp);
-enemy.x = 0
-enemy.y = 20
-enemy.speed = 7
-enemy.direction = 0
-enemy.destroy = false;
-enemy.reappearanceLocations = 1;
-enemy.returnLocations[0,0] = 0
-enemy.returnLocations[0,1] = 0
-enemy.returnLocations[0,2] = 7
-enemy.returnLocations[0,3] = 0
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-  </entry>
-  <entry>
-    <step>90</step>
-    <event>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Spawn enemy
-enemy = instance_create(0, 0, obj_enemy_8way_2hp);
-enemy.x = 0
-enemy.y = 20
-enemy.speed = 7
-enemy.direction = 0
-enemy.destroy = false;
-enemy.reappearanceLocations = 1;
-enemy.returnLocations[0,0] = 0
-enemy.returnLocations[0,1] = 0
-enemy.returnLocations[0,2] = 7
-enemy.returnLocations[0,3] = 0
+            <string>x = room_width/2 - sprite_width/2
+y = 100
 </string>
           </argument>
         </arguments>
@@ -191,18 +182,7 @@ enemy.returnLocations[0,3] = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Spawn enemy
-enemy = instance_create(0, 0, obj_enemy_spread_shot_at_player_2hp);
-enemy.x = 0
-enemy.y = 20
-enemy.speed = 7
-enemy.direction = 0
-enemy.destroy = false;
-enemy.reappearanceLocations = 1;
-enemy.returnLocations[0,0] = 0
-enemy.returnLocations[0,1] = 0
-enemy.returnLocations[0,2] = 7
-enemy.returnLocations[0,3] = 0
+            <string>///do nothing
 </string>
           </argument>
         </arguments>
