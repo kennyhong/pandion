@@ -22,17 +22,8 @@
       <sprite>sprites\spr_enemy_bifrons</sprite>
       <sprite>sprites\spr_enemy_belial</sprite>
     </sprites>
-    <sprites name="background_sprites">
-      <sprite>sprites\spr_cloud01</sprite>
-      <sprite>sprites\spr_cloud02</sprite>
-      <sprite>sprites\spr_cloud03</sprite>
-      <sprite>sprites\spr_cloud04</sprite>
-      <sprite>sprites\spr_cloud05</sprite>
-      <sprite>sprites\spr_cloud06</sprite>
-      <sprite>sprites\spr_cloud07</sprite>
-      <sprite>sprites\spr_cloud08</sprite>
-    </sprites>
-	<sprite>sprites\spr_fullHeart</sprite>
+    <sprite>sprites\spr_cloud</sprite>
+    <sprite>sprites\spr_fullHeart</sprite>
     <sprite>sprites\spr_halfHeart</sprite>
     <sprite>sprites\spr_emptyHeart</sprite>
     <sprite>sprites\spr_anykey</sprite>
@@ -70,6 +61,7 @@
       <object>objects\obj_HUD</object>
       <object>objects\obj_final_boss</object>
       <object>objects\obj_startup_text</object>
+      <object>objects\object25</object>
     </objects>
     <objects name="debug">
       <object>objects\debug_HUD</object>
