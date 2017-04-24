@@ -22,9 +22,20 @@
       <sprite>sprites\spr_enemy_bifrons</sprite>
       <sprite>sprites\spr_enemy_belial</sprite>
     </sprites>
+    <sprites name="background_sprites">
+      <sprite>sprites\spr_cloud01</sprite>
+      <sprite>sprites\spr_cloud02</sprite>
+      <sprite>sprites\spr_cloud03</sprite>
+      <sprite>sprites\spr_cloud04</sprite>
+      <sprite>sprites\spr_cloud05</sprite>
+      <sprite>sprites\spr_cloud06</sprite>
+      <sprite>sprites\spr_cloud07</sprite>
+      <sprite>sprites\spr_cloud08</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test01</background>
+    <background>background\bg_lazyy_trees</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -49,12 +60,12 @@
       <object>objects\obj_initializer</object>
       <object>objects\wave_controller_one</object>
       <object>objects\wave_controller_with_enemy_count</object>
+      <object>objects\obj_cloud_controller</object>
     </objects>
     <objects name="debug">
       <object>objects\debug_HUD</object>
     </objects>
     <objects name="player">
-      <object>objects\obj_move_friction_accel</object>
       <object>objects\obj_player</object>
       <object>objects\obj_crosshair</object>
       <object>objects\player_bullet</object>
@@ -63,26 +74,6 @@
   </objects>
   <timelines name="timelines">
     <timeline>timelines\test_wave</timeline>
-    <timeline>timelines\demon_wave_L1W1</timeline>
-    <timeline>timelines\demon_wave_L1W2</timeline>
-    <timeline>timelines\demon_wave_L1W3</timeline>
+    <timeline>timelines\&lt;undefined&gt;</timeline>
   </timelines>
-  <rooms name="rooms">
-    <room>rooms\initializer</room>
-    <room>rooms\hellfire_room</room>
-    <room>rooms\LucsTestingRoom</room>
-    <room>rooms\rm_movement_accel</room>
-    <room>rooms\rm_movement_test_easy</room>
-    <room>rooms\rm_movement_test_friction</room>
-    <room>rooms\rm_movement_loop</room>
-    <room>rooms\level_two</room>
-  </rooms>
-  <help>
-    <rtf>help.rtf</rtf>
-  </help>
-  <TutorialState>
-    <IsTutorial>0</IsTutorial>
-    <TutorialName></TutorialName>
-    <TutorialPage>0</TutorialPage>
-  </TutorialState>
 </assets>

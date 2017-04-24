@@ -133,6 +133,43 @@ if(speed != 0){
       </action>
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///looper
+loopOffset = 0
+
+if (x + sprite_width &gt; room_width/2 + global.BOUNDARY_SIZE){
+    x = room_width/2 - global.BOUNDARY_SIZE
+}
+if (x &lt; room_width/2 - global.BOUNDARY_SIZE){
+    x = room_width/2 + global.BOUNDARY_SIZE - sprite_width
+}
+
+
+if (y + sprite_height &gt; room_height/2 + global.BOUNDARY_SIZE){
+    y = room_height/2 - global.BOUNDARY_SIZE
+}
+if(y &lt; room_height/2 - global.BOUNDARY_SIZE){
+    y = room_height/2 + global.BOUNDARY_SIZE - sprite_height
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>611</id>
         <kind>6</kind>
         <userelative>-1</userelative>
