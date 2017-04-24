@@ -114,7 +114,7 @@ i = 0
             <kind>1</kind>
             <string>//Firing
 delay = 10
-shotSpeed = 8
+shotSpeed = 5
 spread = 15
 
 if(shotTimer &lt;= 0){
