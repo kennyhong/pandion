@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="0">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,14 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Debug HUD Code
-
-draw_set_alpha(1);
-draw_set_color(c_black);
-
-draw_text(0, 32, "Current Wave: " + string(wave_controller_level_no_boss.currentWave));
-draw_text(0, 64, "Enemies: " + string(global.ENEMY_COUNT));
-
+            <string>///Spawn Belial
+belial = instance_create(80, 80, obj_belial);
 </string>
           </argument>
         </arguments>

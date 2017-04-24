@@ -43,7 +43,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>30</string>
+            <string>20</string>
           </argument>
         </arguments>
       </action>
@@ -67,7 +67,30 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>3</string>
+            <string>2</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//Initializing variables
+nextLeft = false
+i = 0
+</string>
           </argument>
         </arguments>
       </action>
@@ -89,14 +112,29 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>delay = 120
-shotSpeed = 13
+            <string>//Firing
+delay = 10
+shotSpeed = 8
+spread = 15
+
 if(shotTimer &lt;= 0){
     shotTimer = delay
-    for(i = 0; i &lt;=360; i+=11.25){
-        bullet = instance_create(x+sprite_width/2, y+sprite_height/2, obj_enemy_bullet);
-        bullet.speed = shotSpeed;
-        bullet.direction = i;
+    bullet = instance_create(x+sprite_width/2, y+sprite_height/2, obj_enemy_bullet);
+    bullet.speed = shotSpeed
+    bullet.direction = point_direction(x+sprite_width/2,y+sprite_height/2,obj_player.x + obj_player.sprite_width/2,obj_player.y + obj_player.sprite_height/2) + spread - (i*spread)
+    
+    if(i == 0){
+        i++
+        nextLeft = false
+    }else if(i == 1){
+        if(nextLeft){
+            i--
+        }else{
+            i++
+        }
+    }else{
+        i--
+        nextLeft = true
     }
 }else{
     shotTimer--
