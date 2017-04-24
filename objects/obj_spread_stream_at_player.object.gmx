@@ -67,7 +67,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>4</string>
+            <string>2</string>
           </argument>
         </arguments>
       </action>
@@ -113,8 +113,8 @@ i = 0
           <argument>
             <kind>1</kind>
             <string>//Firing
-delay = 5
-shotSpeed = 18
+delay = 10
+shotSpeed = 8
 spread = 15
 
 if(shotTimer &lt;= 0){
