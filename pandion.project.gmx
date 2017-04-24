@@ -25,6 +25,8 @@
     <sprite>sprites\spr_fullHeart</sprite>
     <sprite>sprites\spr_halfHeart</sprite>
     <sprite>sprites\spr_emptyHeart</sprite>
+    <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\bullet2</sprite>
     <sprite>sprites\spr_anykey</sprite>
   </sprites>
   <backgrounds name="background">
@@ -49,6 +51,8 @@
       <object>objects\obj_enemy_bullet</object>
       <object>objects\obj_leaving_screen_behavior</object>
       <object>objects\obj_belial</object>
+      <object>objects\obj_amdusias</object>
+      <object>objects\obj_bifrons</object>
     </objects>
     <objects name="controllers">
       <object>objects\obj_boundary_controller</object>
@@ -69,6 +73,7 @@
   <timelines name="timelines">
     <timeline>timelines\test_wave</timeline>
     <timeline>timelines\timeline4</timeline>
+    <timeline>timelines\amdusiasTimeline</timeline>
     <timelines name="pre_boss_waves">
       <timeline>timelines\demon_wave_1</timeline>
       <timeline>timelines\demon_wave_2</timeline>
