@@ -72,7 +72,7 @@ if(global.ENEMY_COUNT == 0){
         timeline_index = demon_wave_5;
         currentWave++
     } else if (currentWave == 5){
-        room_goto(level_two);
+        room_goto(rm_boss_room);
     }
     timeline_running = true;
     timeline_loop = false;
