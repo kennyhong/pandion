@@ -25,6 +25,7 @@
       <sprite>sprites\lesser_demon_2</sprite>
       <sprite>sprites\lesser_demon_3</sprite>
     </sprites>
+    <sprite>sprites\spr_cloud</sprite>
     <sprite>sprites\spr_fullHeart</sprite>
     <sprite>sprites\spr_halfHeart</sprite>
     <sprite>sprites\spr_emptyHeart</sprite>
@@ -34,6 +35,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test01</background>
+    <background>background\bg_lazyy_trees</background>
     <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
@@ -59,9 +61,11 @@
       <object>objects\obj_initializer</object>
       <object>objects\wave_controller_level_no_boss</object>
       <object>objects\wave_controller_with_enemy_count</object>
+      <object>objects\obj_cloud_controller</object>
       <object>objects\obj_HUD</object>
       <object>objects\obj_final_boss</object>
       <object>objects\obj_startup_text</object>
+      <object>objects\object25</object>
     </objects>
     <objects name="player">
       <object>objects\obj_player</object>
