@@ -22,6 +22,9 @@
       <sprite>sprites\spr_enemy_bifrons</sprite>
       <sprite>sprites\spr_enemy_belial</sprite>
     </sprites>
+    <sprite>sprites\spr_fullHeart</sprite>
+    <sprite>sprites\spr_halfHeart</sprite>
+    <sprite>sprites\spr_emptyHeart</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test01</background>
@@ -49,6 +52,7 @@
       <object>objects\obj_initializer</object>
       <object>objects\wave_controller_one</object>
       <object>objects\wave_controller_with_enemy_count</object>
+      <object>objects\obj_HUD</object>
     </objects>
     <objects name="debug">
       <object>objects\debug_HUD</object>

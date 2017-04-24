@@ -111,6 +111,9 @@ if(global.BOUNDARY_SIZE &gt; global.BOUNDARY_MAX){
 }else if(global.BOUNDARY_SIZE &lt; global.BOUNDARY_MIN){
     global.BOUNDARY_SIZE = global.BOUNDARY_MIN
 }
+if(global.BOUNDARY_SIZE == global.BOUNDARY_MIN){
+    shrinkTimer = shrinkDelay
+}
 </string>
           </argument>
         </arguments>
