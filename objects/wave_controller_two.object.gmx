@@ -109,49 +109,6 @@ canSpawn = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///handle waves with scripts
-/*
-switch (currentWave) {
-    case 1:
-        if (start) {
-            if (check_wave_completed(WAVE_TWO_ENEMIES)) break;
-            script_L1W1();
-        }
-        break;
-    case 2:
-        if (start) {
-            if (check_wave_completed(WAVE_THREE_ENEMIES)) break;
-            script_L1W2();
-        }
-        break;
-    case 3:
-        if (start) {
-            if (check_wave_completed(0)) break;
-            script_L1W3();
-        }
-        break;
-}
-*/
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>///Handle waves with timeline
 switch (currentWave) {
     case 1:
