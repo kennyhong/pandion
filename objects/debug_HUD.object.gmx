@@ -30,8 +30,7 @@
 draw_set_alpha(1);
 draw_set_color(c_black);
 
-draw_text(0, 0, "Start: " + string(wave_controller_one.start));
-draw_text(0, 32, "Current Wave: " + string(wave_controller_one.currentWave));
+draw_text(0, 32, "Current Wave: " + string(wave_controller_level_no_boss.currentWave));
 draw_text(0, 64, "Enemies: " + string(global.ENEMY_COUNT));
 
 </string>
