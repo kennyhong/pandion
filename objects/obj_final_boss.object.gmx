@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>///Spawn Belial
+global.maxHealth = 20;
+global.currentHealth = 20;
 global.belialAlive = true;
 global.amdusiasAlive = true;
 global.bifronsAlive = true;

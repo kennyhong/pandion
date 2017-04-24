@@ -74,6 +74,7 @@
     <timeline>timelines\test_wave</timeline>
     <timeline>timelines\timeline4</timeline>
     <timeline>timelines\amdusiasTimeline</timeline>
+    <timeline>timelines\bifronsTimeline</timeline>
     <timelines name="pre_boss_waves">
       <timeline>timelines\demon_wave_1</timeline>
       <timeline>timelines\demon_wave_2</timeline>
@@ -84,8 +85,8 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\initializer</room>
-    <room>rooms\hellfire_room</room>
     <room>rooms\rm_boss_room</room>
+    <room>rooms\hellfire_room</room>
     <room>rooms\LucsTestingRoom</room>
     <room>rooms\rm_movement_accel</room>
     <room>rooms\rm_movement_test_easy</room>
