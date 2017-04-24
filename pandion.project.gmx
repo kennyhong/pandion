@@ -46,6 +46,7 @@
       <object>objects\obj_spread_stream_at_player</object>
       <object>objects\obj_enemy_bullet</object>
       <object>objects\obj_leaving_screen_behavior</object>
+      <object>objects\obj_belial</object>
     </objects>
     <objects name="controllers">
       <object>objects\obj_boundary_controller</object>
@@ -53,6 +54,7 @@
       <object>objects\wave_controller_one</object>
       <object>objects\wave_controller_with_enemy_count</object>
       <object>objects\obj_HUD</object>
+      <object>objects\obj_final_boss</object>
     </objects>
     <objects name="debug">
       <object>objects\debug_HUD</object>
@@ -70,6 +72,7 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\initializer</room>
+    <room>rooms\rm_boss_room</room>
     <room>rooms\LucsTestingRoom</room>
     <room>rooms\hellfire_room</room>
     <room>rooms\rm_movement_accel</room>
