@@ -29,17 +29,10 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\check_wave_completed.gml</script>
-    <scripts name="wave_scripts">
-      <script>scripts\script_L1W3.gml</script>
-      <script>scripts\script_L1W2.gml</script>
-      <script>scripts\script_L1W1.gml</script>
-    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="enemies">
-      <object>objects\demon_0</object>
       <object>objects\lazar_obj</object>
-      <object>objects\demon_controller_parent</object>
       <object>objects\obj_cloud</object>
       <object>objects\obj_blood_rain</object>
       <object>objects\obj_destroyable_enemy</object>
@@ -54,9 +47,7 @@
     <objects name="controllers">
       <object>objects\obj_boundary_controller</object>
       <object>objects\obj_initializer</object>
-      <object>objects\wave_controller_parent</object>
       <object>objects\wave_controller_one</object>
-      <object>objects\wave_controller_two</object>
       <object>objects\wave_controller_with_enemy_count</object>
     </objects>
     <objects name="debug">
@@ -70,9 +61,6 @@
     </objects>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\demon_L1W1</timeline>
-    <timeline>timelines\demon_L1W2</timeline>
-    <timeline>timelines\demon_L1W3</timeline>
     <timeline>timelines\test_wave</timeline>
     <timeline>timelines\timeline4</timeline>
   </timelines>
