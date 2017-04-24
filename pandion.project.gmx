@@ -48,6 +48,8 @@
       <object>objects\obj_enemy_bullet</object>
       <object>objects\obj_leaving_screen_behavior</object>
       <object>objects\obj_belial</object>
+      <object>objects\obj_amdusias</object>
+      <object>objects\obj_bifrons</object>
     </objects>
     <objects name="controllers">
       <object>objects\obj_boundary_controller</object>
@@ -70,6 +72,7 @@
   <timelines name="timelines">
     <timeline>timelines\test_wave</timeline>
     <timeline>timelines\timeline4</timeline>
+    <timeline>timelines\amdusiasTimeline</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\initializer</room>

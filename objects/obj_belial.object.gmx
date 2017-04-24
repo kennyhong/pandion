@@ -29,7 +29,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>30</string>
+            <string>10</string>
           </argument>
         </arguments>
       </action>
@@ -101,7 +101,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>400</string>
+            <string>350</string>
           </argument>
         </arguments>
       </action>
@@ -178,8 +178,8 @@ cPosition += oscillationSpeed
 if(cPosition &gt; 360){
     cPosition = oscillationSpeed
 }
-x = room_width/2 + (radius*(dsin(cPosition)))
-y = room_height/2 + (radius*(dsin(cPosition + 90)))
+x = room_width/2 - sprite_width/2 + (radius*(dsin(cPosition)))
+y = room_height/2 - sprite_height/2+ (radius*(dsin(cPosition + 90)))
 
 if(shotTimer &lt;= 0){
     shotTimer = shotDelay;
@@ -292,6 +292,30 @@ if(shotTimer &lt;= 0){
           <argument>
             <kind>0</kind>
             <string>global.ENEMY_COUNT - 1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.belialAlive</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>false</string>
           </argument>
         </arguments>
       </action>
