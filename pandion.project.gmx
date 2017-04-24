@@ -26,6 +26,7 @@
     <sprite>sprites\spr_halfHeart</sprite>
     <sprite>sprites\spr_emptyHeart</sprite>
     <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\bullet2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test01</background>
