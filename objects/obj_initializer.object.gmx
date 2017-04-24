@@ -43,6 +43,7 @@
             <kind>1</kind>
             <string>///initialize
 global.BOUNDARY_SIZE = 200
+global.TARGET_BOUNDARY_SIZE = 200
 global.BOUNDARY_MAX = 250
 global.ENEMY_COUNT = 0
 </string>
