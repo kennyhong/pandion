@@ -54,7 +54,6 @@
       <object>objects\debug_HUD</object>
     </objects>
     <objects name="player">
-      <object>objects\obj_move_friction_accel</object>
       <object>objects\obj_player</object>
       <object>objects\obj_crosshair</object>
       <object>objects\player_bullet</object>
@@ -63,14 +62,12 @@
   </objects>
   <timelines name="timelines">
     <timeline>timelines\test_wave</timeline>
-    <timeline>timelines\demon_wave_L1W1</timeline>
-    <timeline>timelines\demon_wave_L1W2</timeline>
-    <timeline>timelines\demon_wave_L1W3</timeline>
+    <timeline>timelines\timeline4</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\initializer</room>
-    <room>rooms\hellfire_room</room>
     <room>rooms\LucsTestingRoom</room>
+    <room>rooms\hellfire_room</room>
     <room>rooms\rm_movement_accel</room>
     <room>rooms\rm_movement_test_easy</room>
     <room>rooms\rm_movement_test_friction</room>
