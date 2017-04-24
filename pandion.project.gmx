@@ -16,6 +16,7 @@
     <sprite>sprites\spr_crosshair</sprite>
     <sprite>sprites\test_enemy</sprite>
     <sprite>sprites\fire_lazar</sprite>
+    <sprite>sprites\spr_red_square</sprite>
     <sprites name="enemy">
       <sprite>sprites\spr_enemy_amdusias</sprite>
       <sprite>sprites\spr_enemy_bifrons</sprite>
@@ -39,6 +40,16 @@
       <object>objects\demon_0</object>
       <object>objects\lazar_obj</object>
       <object>objects\demon_controller_parent</object>
+      <object>objects\obj_cloud</object>
+      <object>objects\obj_blood_rain</object>
+      <object>objects\obj_destroyable_enemy</object>
+      <object>objects\object_dummy_enemy</object>
+      <object>objects\obj_enemy_8way</object>
+      <object>objects\obj_enemy_32way</object>
+      <object>objects\obj_enemy_spread_shot_at_player</object>
+      <object>objects\obj_spread_stream_at_player</object>
+      <object>objects\obj_enemy_bullet</object>
+      <object>objects\obj_leaving_screen_behavior</object>
     </objects>
     <objects name="controllers">
       <object>objects\obj_boundary_controller</object>
@@ -46,12 +57,14 @@
       <object>objects\wave_controller_parent</object>
       <object>objects\wave_controller_one</object>
       <object>objects\wave_controller_two</object>
+      <object>objects\wave_controller_with_enemy_count</object>
     </objects>
     <objects name="debug">
       <object>objects\debug_HUD</object>
     </objects>
     <objects name="player">
       <object>objects\obj_move_friction_accel</object>
+      <object>objects\obj_player</object>
       <object>objects\obj_crosshair</object>
       <object>objects\player_bullet</object>
       <object>objects\obj_move_loop</object>
@@ -61,15 +74,18 @@
     <timeline>timelines\demon_L1W1</timeline>
     <timeline>timelines\demon_L1W2</timeline>
     <timeline>timelines\demon_L1W3</timeline>
+    <timeline>timelines\test_wave</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\initializer</room>
     <room>rooms\hellfire_room</room>
+    <room>rooms\LucsTestingRoom</room>
     <room>rooms\rm_movement_accel</room>
+    <room>rooms\hellfire_room</room>
     <room>rooms\rm_movement_test_easy</room>
     <room>rooms\rm_movement_test_friction</room>
     <room>rooms\rm_movement_loop</room>
     <room>rooms\level_two</room>
+	<room>rooms\initializer</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
