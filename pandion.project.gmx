@@ -37,7 +37,6 @@
     <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <objects name="enemies">
       <object>objects\lazar_obj</object>
@@ -45,10 +44,10 @@
       <object>objects\obj_blood_rain</object>
       <object>objects\obj_destroyable_enemy</object>
       <object>objects\object_dummy_enemy</object>
-      <object>objects\obj_enemy_8way_5hp</object>
-      <object>objects\obj_enemy_32way_5hp</object>
-      <object>objects\obj_enemy_spread_shot_at_player_5hp</object>
-      <object>objects\obj_spread_stream_at_player_5hp</object>
+      <object>objects\obj_enemy_8way_2hp</object>
+      <object>objects\obj_enemy_32way_2hp</object>
+      <object>objects\obj_enemy_spread_shot_at_player_2hp</object>
+      <object>objects\obj_spread_stream_at_player_2hp</object>
       <object>objects\obj_enemy_bullet</object>
       <object>objects\obj_leaving_screen_behavior</object>
       <object>objects\obj_belial</object>
