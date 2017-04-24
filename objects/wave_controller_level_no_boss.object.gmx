@@ -28,7 +28,7 @@
             <string>//Init vars
 
 event_inherited();
-currentWave = 1;
+currentWave = 0;
 </string>
           </argument>
         </arguments>
@@ -51,34 +51,33 @@ currentWave = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Handle waves with timeline
-switch (currentWave) {
-    case 1:
-        if (timeline_running == true) {
-           check_wave_completed();
-        }
-        timeline_index = demon_wave_L1W1;
-        timeline_running = true;
-        break;
-    case 2:
-        if (timeline_running == true) {
-           check_wave_completed();
-        }
-        timeline_index = demon_wave_L1W2;
-        timeline_running = true;
-        break;
-    case 3:
-        if (timeline_running == true) {
-           check_wave_completed();
-        }
-        timeline_index = demon_wave_L1W3;
-        timeline_running = true;
-        break;
-    case 4:
-        if(!instance_exists(demon_controller_parent)) {
-            room_goto(level_two);
-        }
+            <string>///If statement handlers
+if(global.ENEMY_COUNT == 0){
+
+    timeline_position = 0;
+    
+    if (currentWave == 0) {
+        timeline_index = demon_wave_1;
+        currentWave++
+    } else if (currentWave == 1){
+        timeline_index = demon_wave_2;
+        currentWave++
+    } else if (currentWave == 2){
+        timeline_index = demon_wave_3;
+        currentWave++
+    } else if (currentWave == 3){
+        timeline_index = demon_wave_4;
+        currentWave++
+    } else if (currentWave == 4){
+        timeline_index = demon_wave_5;
+        currentWave++
+    } else if (currentWave == 5){
+        room_goto(level_two);
+    }
+    timeline_running = true;
+    timeline_loop = false;
 }
+
 </string>
           </argument>
         </arguments>

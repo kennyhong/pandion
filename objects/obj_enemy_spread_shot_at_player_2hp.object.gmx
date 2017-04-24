@@ -90,13 +90,14 @@
           <argument>
             <kind>1</kind>
             <string>delay = 60
-shotSpeed = 12
+shotSpeed = 5
+spread = 20
 if(shotTimer &lt;= 0){
     shotTimer = delay
-    for(i = 0; i &lt;=360; i+=45){
+    for(i = 0; i &lt;3; i++){
         bullet = instance_create(x+sprite_width/2, y+sprite_height/2, obj_enemy_bullet);
-        bullet.speed = shotSpeed;
-        bullet.direction = i;
+        bullet.speed = shotSpeed
+        bullet.direction = point_direction(x+sprite_width/2,y+sprite_height/2,obj_player.x + obj_player.sprite_width/2,obj_player.y + obj_player.sprite_height/2) + spread - (i*spread)
     }
 }else{
     shotTimer--

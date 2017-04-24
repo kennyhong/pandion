@@ -27,9 +27,11 @@
     <sprite>sprites\spr_emptyHeart</sprite>
     <sprite>sprites\sprite17</sprite>
     <sprite>sprites\bullet2</sprite>
+    <sprite>sprites\spr_anykey</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test01</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -42,10 +44,10 @@
       <object>objects\obj_blood_rain</object>
       <object>objects\obj_destroyable_enemy</object>
       <object>objects\object_dummy_enemy</object>
-      <object>objects\obj_enemy_8way</object>
-      <object>objects\obj_enemy_32way</object>
-      <object>objects\obj_enemy_spread_shot_at_player</object>
-      <object>objects\obj_spread_stream_at_player</object>
+      <object>objects\obj_enemy_8way_2hp</object>
+      <object>objects\obj_enemy_32way_2hp</object>
+      <object>objects\obj_enemy_spread_shot_at_player_2hp</object>
+      <object>objects\obj_spread_stream_at_player_2hp</object>
       <object>objects\obj_enemy_bullet</object>
       <object>objects\obj_leaving_screen_behavior</object>
       <object>objects\obj_belial</object>
@@ -55,13 +57,11 @@
     <objects name="controllers">
       <object>objects\obj_boundary_controller</object>
       <object>objects\obj_initializer</object>
-      <object>objects\wave_controller_one</object>
+      <object>objects\wave_controller_level_no_boss</object>
       <object>objects\wave_controller_with_enemy_count</object>
       <object>objects\obj_HUD</object>
       <object>objects\obj_final_boss</object>
-    </objects>
-    <objects name="debug">
-      <object>objects\debug_HUD</object>
+      <object>objects\obj_startup_text</object>
     </objects>
     <objects name="player">
       <object>objects\obj_player</object>
@@ -74,12 +74,19 @@
     <timeline>timelines\test_wave</timeline>
     <timeline>timelines\timeline4</timeline>
     <timeline>timelines\amdusiasTimeline</timeline>
+    <timelines name="pre_boss_waves">
+      <timeline>timelines\demon_wave_1</timeline>
+      <timeline>timelines\demon_wave_2</timeline>
+      <timeline>timelines\demon_wave_3</timeline>
+      <timeline>timelines\demon_wave_4</timeline>
+      <timeline>timelines\demon_wave_5</timeline>
+    </timelines>
   </timelines>
   <rooms name="rooms">
     <room>rooms\initializer</room>
+    <room>rooms\hellfire_room</room>
     <room>rooms\rm_boss_room</room>
     <room>rooms\LucsTestingRoom</room>
-    <room>rooms\hellfire_room</room>
     <room>rooms\rm_movement_accel</room>
     <room>rooms\rm_movement_test_easy</room>
     <room>rooms\rm_movement_test_friction</room>
