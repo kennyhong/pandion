@@ -37,9 +37,7 @@
     <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\check_wave_completed.gml</script>
-  </scripts>
+  <scripts name="scripts"/>
   <objects name="objects">
     <objects name="enemies">
       <object>objects\lazar_obj</object>
