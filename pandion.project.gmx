@@ -21,6 +21,9 @@
       <sprite>sprites\spr_enemy_amdusias</sprite>
       <sprite>sprites\spr_enemy_bifrons</sprite>
       <sprite>sprites\spr_enemy_belial</sprite>
+      <sprite>sprites\lesser_demon_1</sprite>
+      <sprite>sprites\lesser_demon_2</sprite>
+      <sprite>sprites\lesser_demon_3</sprite>
     </sprites>
     <sprite>sprites\spr_fullHeart</sprite>
     <sprite>sprites\spr_halfHeart</sprite>
@@ -34,9 +37,6 @@
     <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\check_wave_completed.gml</script>
-  </scripts>
   <objects name="objects">
     <objects name="enemies">
       <object>objects\lazar_obj</object>
