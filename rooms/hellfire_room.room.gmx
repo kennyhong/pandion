@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="wave_controller_level_no_boss" x="0" y="0" name="inst_1D376C5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="debug_HUD" x="320" y="64" name="inst_09FDD3BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="288" y="416" name="inst_406B41D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_crosshair" x="480" y="96" name="inst_94A9D84A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_crosshair" x="352" y="352" name="inst_6907A194" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

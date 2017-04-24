@@ -56,9 +56,6 @@
       <object>objects\obj_HUD</object>
       <object>objects\obj_final_boss</object>
     </objects>
-    <objects name="debug">
-      <object>objects\debug_HUD</object>
-    </objects>
     <objects name="player">
       <object>objects\obj_player</object>
       <object>objects\obj_crosshair</object>
@@ -75,11 +72,6 @@
       <timeline>timelines\demon_wave_3</timeline>
       <timeline>timelines\demon_wave_4</timeline>
       <timeline>timelines\demon_wave_5</timeline>
-      <timeline>timelines\demon_wave_6</timeline>
-      <timeline>timelines\demon_wave_7</timeline>
-      <timeline>timelines\demon_wave_8</timeline>
-      <timeline>timelines\demon_wave_9</timeline>
-      <timeline>timelines\demon_wave_10</timeline>
     </timelines>
   </timelines>
   <rooms name="rooms">
