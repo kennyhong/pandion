@@ -26,7 +26,43 @@
           <argument>
             <kind>1</kind>
             <string>///Spawn Belial
+global.belialAlive = true;
+global.amdusiasAlive = true;
+global.bifronsAlive = true;
+stage = 1
 belial = instance_create(80, 80, obj_belial);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Moving to next enemies
+if(stage == 1 &amp;&amp; !global.belialAlive){
+    stage = 2
+    global.amdusiasAlive = true;
+    amdusias = instance_create(80, 80, obj_amdusias);
+}else if(stage == 2 &amp;&amp; !global.amdusiasAlive){
+    stage = 3
+    global.bifronsAlive = true;
+    amdusias = instance_create(80, 80, obj_bifrons);
+}
 </string>
           </argument>
         </arguments>
