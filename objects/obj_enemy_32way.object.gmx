@@ -90,7 +90,7 @@
           <argument>
             <kind>1</kind>
             <string>delay = 120
-shotSpeed = 13
+shotSpeed = 12
 if(shotTimer &lt;= 0){
     shotTimer = delay
     for(i = 0; i &lt;=360; i+=11.25){
