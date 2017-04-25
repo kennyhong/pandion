@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\hit</sound>
+    <sound>sound\music</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_pandion</sprite>
     <sprite>sprites\spr_boundary_v</sprite>
@@ -41,6 +44,7 @@
     <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts"/>
   <objects name="objects">
     <objects name="enemies">
       <object>objects\lazar_obj</object>
@@ -93,13 +97,13 @@
     <room>rooms\initializer</room>
     <room>rooms\hellfire_room</room>
     <room>rooms\rm_boss_room</room>
+    <room>rooms\end_screen</room>
     <room>rooms\LucsTestingRoom</room>
     <room>rooms\rm_movement_accel</room>
     <room>rooms\rm_movement_test_easy</room>
     <room>rooms\rm_movement_test_friction</room>
     <room>rooms\rm_movement_loop</room>
     <room>rooms\level_two</room>
-    <room>rooms\end_screen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

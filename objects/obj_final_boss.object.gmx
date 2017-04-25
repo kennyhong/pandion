@@ -65,6 +65,9 @@ if(stage == 1 &amp;&amp; !global.belialAlive){
     stage = 3
     global.bifronsAlive = true;
     amdusias = instance_create(80, 80, obj_bifrons);
+}else if(stage == 3 &amp;&amp; !global.bifronsAlive){
+    stage = 4
+    room_goto(end_screen);
 }
 </string>
           </argument>
