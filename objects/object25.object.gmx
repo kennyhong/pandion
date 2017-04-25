@@ -28,6 +28,7 @@
             <string>///create
 image_speed=0
 image_index=round(random_range(0,7))
+image_alpha= random_range(.2,.7)
 vspeed = round(random_range(3,10))
 </string>
           </argument>
