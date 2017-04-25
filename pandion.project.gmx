@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\hit</sound>
     <sound>sound\music</sound>
+    <sound>sound\sound2</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_pandion</sprite>
@@ -72,6 +73,7 @@
       <object>objects\obj_final_boss</object>
       <object>objects\obj_startup_text</object>
       <object>objects\object25</object>
+      <object>objects\object27</object>
     </objects>
     <objects name="player">
       <object>objects\obj_player</object>
