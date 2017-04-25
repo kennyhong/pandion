@@ -24,6 +24,7 @@
       <sprite>sprites\lesser_demon_1</sprite>
       <sprite>sprites\lesser_demon_2</sprite>
       <sprite>sprites\lesser_demon_3</sprite>
+      <sprite>sprites\beauty</sprite>
     </sprites>
     <sprite>sprites\spr_cloud</sprite>
     <sprite>sprites\spr_fullHeart</sprite>
@@ -37,6 +38,7 @@
     <background>background\bg_test01</background>
     <background>background\bg_lazyy_trees</background>
     <background>background\background1</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -96,6 +98,7 @@
     <room>rooms\rm_movement_test_friction</room>
     <room>rooms\rm_movement_loop</room>
     <room>rooms\level_two</room>
+    <room>rooms\end_screen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
