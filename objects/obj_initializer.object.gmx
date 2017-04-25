@@ -46,8 +46,8 @@ global.BOUNDARY_SIZE = 200
 global.BOUNDARY_MAX = 240
 global.BOUNDARY_MIN = 80
 global.ENEMY_COUNT = 0
-global.maxHealth = 6
-global.currentHealth = 6
+global.maxHealth = 20
+global.currentHealth = 20
 </string>
           </argument>
         </arguments>

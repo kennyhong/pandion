@@ -30,13 +30,13 @@ var count = 0;
 
 repeat(ceil(global.maxHealth/2)){
     if(healthToDraw &gt;= 2){
-        draw_sprite(spr_fullHeart,0,room_width/2 - (sprite_get_width(spr_fullHeart)/2) - ((sprite_get_width(spr_fullHeart) + 5)*count), 15);
+        draw_sprite(spr_fullHeart,0,room_width - 20 - (sprite_get_width(spr_fullHeart)/2) - ((sprite_get_width(spr_fullHeart) + 5)*count), 15);
         healthToDraw -= 2;
     }else if(healthToDraw == 1){
-        draw_sprite(spr_halfHeart,0,room_width/2 - (sprite_get_width(spr_fullHeart)/2) - ((sprite_get_width(spr_fullHeart) + 5)*count), 15);
+        draw_sprite(spr_halfHeart,0,room_width - 20 - (sprite_get_width(spr_fullHeart)/2) - ((sprite_get_width(spr_fullHeart) + 5)*count), 15);
         healthToDraw -= 1;
     }else{
-        draw_sprite(spr_emptyHeart,0,room_width/2 - (sprite_get_width(spr_fullHeart)/2) - ((sprite_get_width(spr_fullHeart) + 5)*count), 15);
+        draw_sprite(spr_emptyHeart,0,room_width - 20 - (sprite_get_width(spr_fullHeart)/2) - ((sprite_get_width(spr_fullHeart) + 5)*count), 15);
     }
     count++;
 }

@@ -37,6 +37,7 @@
     <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts"/>
   <objects name="objects">
     <objects name="enemies">
       <object>objects\lazar_obj</object>
@@ -85,8 +86,8 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\initializer</room>
-    <room>rooms\rm_boss_room</room>
     <room>rooms\hellfire_room</room>
+    <room>rooms\rm_boss_room</room>
     <room>rooms\LucsTestingRoom</room>
     <room>rooms\rm_movement_accel</room>
     <room>rooms\rm_movement_test_easy</room>

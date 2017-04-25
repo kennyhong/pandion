@@ -31,6 +31,7 @@ global.currentHealth = 20;
 global.belialAlive = true;
 global.amdusiasAlive = true;
 global.bifronsAlive = true;
+global.BOUNDARY_SIZE = 200
 stage = 1
 belial = instance_create(80, 80, obj_belial);
 </string>

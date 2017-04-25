@@ -67,6 +67,7 @@ if(global.ENEMY_COUNT == 0){
         currentWave++
     } else if (currentWave == 3){
         timeline_index = demon_wave_4;
+        global.currentHealth = 20;
         currentWave++
     } else if (currentWave == 4){
         timeline_index = demon_wave_5;
