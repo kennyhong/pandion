@@ -24,6 +24,7 @@
       <sprite>sprites\lesser_demon_1</sprite>
       <sprite>sprites\lesser_demon_2</sprite>
       <sprite>sprites\lesser_demon_3</sprite>
+      <sprite>sprites\beauty</sprite>
     </sprites>
     <sprite>sprites\spr_cloud</sprite>
     <sprite>sprites\spr_fullHeart</sprite>
